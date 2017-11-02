@@ -26,7 +26,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         LCTL,LGUI,LALT,            SPC,                RALT, FN0,RCTL,LEFT,DOWN,RGHT),
     /* Keymap 1: FN Layer 2
      * ,---------------------------------------------------------------.
-     * |   |bru|brd|   |a-p|   |   |Rev|Pau| FF|Mut|VoD|VoU|   |   |   |
+     * |   |   |   |   |   |   |   |Rev|Pau| FF|Mut|VoD|VoU|   |   |   |
      * |---------------------------------------------------------------|
      * |   |   |   |   |   |   |   |   |   |   |   |   |   |       |   |
      * |---------------------------------------------------------------|
@@ -40,7 +40,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * `---------------------------------------------------------------'
      */
     KEYMAP(
-        TRNS,TRNS,TRNS,TRNS,MSEL,TRNS,TRNS,MRWD,PAUS,MFFD,MUTE,VOLD,VOLU,TRNS,TRNS, INS, \
+        TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,MRWD,MPLY,MFFD,MUTE,VOLD,VOLU,TRNS,TRNS, INS, \
         TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS, \
         TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS, \
         TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,   TRNS, TRNS,      TRNS,TRNS, \
