@@ -39,7 +39,7 @@
 #----------------------------------------------------------------------------
 
 # Target file name (without extension).
-TARGET = k84_lufa
+TARGET = ./build/k84_lufa
 
 # Directory common source filess exist
 TMK_DIR = ./tmk_core
